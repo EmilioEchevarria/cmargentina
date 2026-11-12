@@ -1,0 +1,13 @@
+[project]
+name = "cmargentina"
+version = "0.1.0"
+description = "Argentina-inspired colormaps for matplotlib"
+readme = "README.md"
+dependencies = ["matplotlib>=3.6"]
+
+[tool.setuptools]
+py-modules = ["cmargentina"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
