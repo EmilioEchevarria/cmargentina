@@ -2108,3 +2108,14 @@ for _name, _rgb in MAPS.items():
     for _c in (_cmap, _cmap.reversed()):
         mpl.colormaps.register(_c, force=True)
         globals()[_c.name] = _c
+
+
+def show():
+    import matplotlib.pyplot as plt
+    fig, axs = plt.subplots(len(MAPS), figsize=(7, 0.45 * len(MAPS)))
+    for ax, name in zip(axs, MAPS):
+        ax.imshow([globals()[name].colors], aspect="auto")
+        ax.text(-0.02, 0.5, name, transform=ax.transAxes, ha="right", va="center")
+        ax.set_axis_off()
+    fig.subplots_adjust(left=0.2)
+    plt.show()

