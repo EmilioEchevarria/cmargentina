@@ -5,10 +5,10 @@ from matplotlib.colors import to_rgb
 from colorspacious import cspace_convert
 from scipy.interpolate import PchipInterpolator
 
+UCS = "CAM02-UCS"
+
 # Recipes for the colormaps, run `python design.py` to check the maps
 # Needs colorspacious and scipy
-
-UCS = "CAM02-UCS"
 
 def ramp(colors, n=256):
     """Smooth path through the anchor colours, resampled to equal perceptual steps."""
@@ -50,6 +50,17 @@ for _name, _rgb in MAPS.items():
     for _c in (_cmap, _cmap.reversed()):
         mpl.colormaps.register(_c, force=True)
         globals()[_c.name] = _c
+
+
+def show():
+    import matplotlib.pyplot as plt
+    fig, axs = plt.subplots(len(MAPS), figsize=(7, 0.45 * len(MAPS)))
+    for ax, name in zip(axs, MAPS):
+        ax.imshow([globals()[name].colors], aspect="auto")
+        ax.text(-0.02, 0.5, name, transform=ax.transAxes, ha="right", va="center")
+        ax.set_axis_off()
+    fig.subplots_adjust(left=0.2)
+    plt.show()
 '''
 
 if __name__ == "__main__":
