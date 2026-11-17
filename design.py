@@ -7,15 +7,14 @@ from scipy.interpolate import PchipInterpolator
 
 UCS = "CAM02-UCS"
 
-# Recipes for the colormaps, run `python design.py` to check the maps
-# Needs colorspacious and scipy
-
-def ramp(colors, n=256):
-    """Smooth path through the anchor colours, resampled to equal perceptual steps."""
+def ramp(colors, n=256, lightness=1):
+    """Smooth path through the anchor colours, resampled to equal perceptual steps.
+    lightness > 1 gives lightness more weight, so it rises more evenly."""
     jab = cspace_convert([to_rgb(c) for c in colors], "sRGB1", UCS)
     path = PchipInterpolator(np.linspace(0, 1, len(colors)), jab)(np.linspace(0, 1, 2000))
     rgb = np.clip(cspace_convert(path, UCS, "sRGB1"), 0, 1)
-    s = np.r_[0, np.cumsum(np.linalg.norm(np.diff(cspace_convert(rgb, "sRGB1", UCS), axis=0), axis=1))]
+    d = np.diff(cspace_convert(rgb, "sRGB1", UCS), axis=0) * [lightness, 1, 1]
+    s = np.r_[0, np.cumsum(np.linalg.norm(d, axis=1))]
     return np.array([np.interp(np.linspace(0, s[-1], n), s, c) for c in rgb.T]).T
 
 
@@ -30,6 +29,8 @@ def bands(pairs, line, n=40):
 MAPS = {
     "sudestada": ramp("#073050 #124e96 #2079c0 #2fa5d8 #3fd1d9 #83f2ba #f4ee78 "
                       "#f8c562 #f79639 #ee5d2b #c5293d #8f1744 #590d40".split()),
+    "misiones": ramp("#032114 #083e1e #1f5c0e #566d15 #847319 #af701d #d96921 "
+                     "#f86f33 #fa9655 #fbc865".split(), lightness=1.6),
     "fileteado": bands([("#b4cbf9", "#2043a3"), ("#b1e9f7", "#008399"), ("#bff4c9", "#0e8c41"),
                         ("#fff4ca", "#c5a500"), ("#ffd9bb", "#c86f00"), ("#ffb5ab", "#bb0a10"),
                         ("#e6a0ba", "#760044")], line="#181928"),
