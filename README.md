@@ -14,19 +14,19 @@ plt.pcolormesh(x, y, z, cmap="sudestada")  # o cmargentina.sudestada, "sudestada
 ```python
 cmargentina.show()
 ```
-![show](https://raw-githubusercontent-com.ali360.cloudns.ch/EmilioEchevarria/cmargentina/main/img/cmargentina_show.png)
+![show](img/cmargentina_show.png)
 
 ## sudestada
 
 https://en.wikipedia.org/wiki/Sudestada
 
-![sudestada](https://raw-githubusercontent-com.ali360.cloudns.ch/EmilioEchevarria/cmargentina/main/img/sudestada.png)
+![sudestada](img/sudestada.png)
 
 ## misiones
 
 https://en.wikipedia.org/wiki/Misiones_Province
 
-![misiones](https://raw-githubusercontent-com.ali360.cloudns.ch/EmilioEchevarria/cmargentina/main/img/misiones.png)
+![misiones](img/misiones.png)
 
 (Data from University of Maryland's Global Forest Change 2000-2024 (Hansen et al., 2013))
 
@@ -34,34 +34,34 @@ https://en.wikipedia.org/wiki/Misiones_Province
 
 https://en.wikipedia.org/wiki/Fileteado
 
-![fileteado](https://raw-githubusercontent-com.ali360.cloudns.ch/EmilioEchevarria/cmargentina/main/img/fileteado.png)
+![fileteado](img/fileteado.png)
 
 ## ferro
 
 https://es.wikipedia.org/wiki/Club_Ferro_Carril_Oeste
 
-![ferro](https://raw-githubusercontent-com.ali360.cloudns.ch/EmilioEchevarria/cmargentina/main/img/ferro.png)
+![ferro](img/ferro.png)
 
 ## mate
 
 https://en.wikipedia.org/wiki/Mate_(drink)
 
-![mate](https://raw-githubusercontent-com.ali360.cloudns.ch/EmilioEchevarria/cmargentina/main/img/mate.png)
+![mate](img/mate.png)
 
 ## asado
 
 https://en.wikipedia.org/wiki/Asado
 
-![asado](https://raw-githubusercontent-com.ali360.cloudns.ch/EmilioEchevarria/cmargentina/main/img/asado.png)
+![asado](img/asado.png)
 
 ## malbec
 
 https://en.wikipedia.org/wiki/Malbec
 
-![malbec](https://raw-githubusercontent-com.ali360.cloudns.ch/EmilioEchevarria/cmargentina/main/img/malbec.png)
+![malbec](img/malbec.png)
 
 ## pampa
 
 https://en.wikipedia.org/wiki/Pampas
 
-![pampa](https://raw-githubusercontent-com.ali360.cloudns.ch/EmilioEchevarria/cmargentina/main/img/pampa.png)
+![pampa](img/pampa.png)
