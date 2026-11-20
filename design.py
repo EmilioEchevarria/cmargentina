@@ -43,6 +43,8 @@ MAPS = {
                               ramp("#eeeeee #dda016 #9c4d1e #301f31".split(), 128)]),
     "mate": np.vstack([ramp("#071e40 #185a89 #4d9ebc #96d0d7".split(), 128),
                        ramp("#34622a #5d7e28 #99933a #c7a570 #e0c6a8 #edebe7".split(), 128)]),
+    "santa_rosa": ramp("#ebe4fb #b8d5f5 #79cbda #51bca9 #53a871 #6d8d3f #7f6e1d #854f12 "
+                       "#812d13 #6c1729 #4d0f37 #2a0c34".split(), lightness=1.6),
 }
 
 CODE = '''
